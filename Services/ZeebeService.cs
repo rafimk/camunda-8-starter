@@ -55,6 +55,7 @@ public class ZeebeService: IZeebeService
     public void StartWorkers()
     {
         CreateGetTimeWorker();
+        CreateMakeGreetingWorker();
     }
     
     public void CreateGetTimeWorker()
